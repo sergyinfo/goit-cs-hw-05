@@ -1,3 +1,11 @@
+"""
+A simple asynchronous file reader that reads files from a source folder and copies them to a target folder
+
+To run the script, you can provide the source and target folder paths as command-line arguments:
+    python main.py source_folder target_folder --max-tasks 5
+
+
+"""
 import os
 import asyncio
 from pathlib import Path
